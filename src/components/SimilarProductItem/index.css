@@ -1,0 +1,73 @@
+.similar-product-item-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  width: 75%;
+}
+
+@media screen and (min-width: 768px) {
+  .similar-product-item-container {
+    width: 300px;
+  }
+}
+
+.similar-product-item-image {
+  width: 100%;
+  border-radius: 6px;
+}
+
+.similar-product-item-title {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.similar-product-item-brand {
+  color: #594d6d;
+  font-family: 'Roboto';
+  font-size: 18px;
+  margin-bottom: 6px;
+  margin-top: 0;
+}
+
+.similar-product-item-price-rating-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.similar-product-item-price {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 22px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.similar-product-item-rating-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3b82f6;
+  border-radius: 4px;
+  height: 30px;
+  width: 60px;
+}
+
+.similar-product-item-rating {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  margin-right: 4px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.similar-product-item-star {
+  height: 20px;
+  width: 20px;
+  margin-bottom: 3px;
+}

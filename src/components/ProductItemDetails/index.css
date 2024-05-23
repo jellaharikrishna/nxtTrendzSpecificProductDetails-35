@@ -1,0 +1,213 @@
+.product-item-details-loader {
+  display: flex;
+  justify-content: center;
+}
+.display-none {
+  display: none;
+}
+.product-item-details-app-container {
+  overflow: auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-item-details-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.product-item-details-image {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.product-item-details-contant {
+  /**/
+}
+.product-item-details-title {
+  color: #616e7c;
+  font-family: Roboto;
+  font-size: 28px;
+}
+.product-item-details-price {
+  color: #171f46;
+  font-family: Roboto;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.product-item-details-rating-container {
+  display: flex;
+  align-items: center;
+}
+.product-item-details-rating-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3b82f6;
+  height: 30px;
+  width: 60px;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+.product-item-details-rating {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  margin-right: 4px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.product-item-details-rating-star-icon {
+  height: 20px;
+  width: 20px;
+  margin-bottom: 3px;
+}
+.product-item-details-totalreviews {
+  color: #1e293b;
+  font-family: Roboto;
+  font-size: 16px;
+}
+
+.product-item-details-description {
+  color: #616e7c;
+  font-family: Roboto;
+  font-weight: 400;
+}
+
+.product-item-details-available {
+  color: #616e7c;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+}
+.product-item-details-available-span {
+  color: #171f46;
+  margin-left: 10px;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+.product-item-details-brand {
+   color: #616e7c;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+}
+.product-item-details-brand-span {
+  color: #171f46;
+  margin-left: 10px;
+  font-size: 20px;
+  font-family: Roboto;
+  font-weight: bold;
+   margin-right: 10px;
+}
+
+.product-item-details-hr-line {
+}
+
+.product-item-details-minus-plus-container {
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.product-item-details-quanity {
+  color: #616e7c;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: bold;
+}
+.product-item-details-minus-plus-btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.product-item-details-minus-plus-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.product-item-details-add-to-cart-btn {
+  height: 40px;
+  width: 120px;
+  color: white;
+  font-family: roboto;
+  font-size: 12px;
+  font-weight: 500;
+  background-color: #3b82f6;
+  border-radius: 5px;
+  border-width: 0;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .product-item-details-container {
+    flex-direction: row;
+    width: 80%;
+  }
+  .product-item-details-image {
+    width: 50%;
+    margin-right: 20px;
+  }
+}
+
+.product-item-failure-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.product-item-failure-view-image {
+  width: 100%;
+}
+.product-item-failure-view-heading {
+  color: #171f46;
+  font-family: Roboto;
+}
+.product-item-failure-view-continue-shopping-btn {
+  height: 40px;
+  width: 180px;
+  color: white;
+  font-family: roboto;
+  font-weight: 500;
+  font-size: 14px;
+  background-color: #3b82f6;
+  border-radius: 5px;
+  border-width: 0;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .product-item-failure-view-container {
+    width: 50%;
+  }
+}
+
+.similar-products-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+.similar-products-heading {
+  color: #171f46;
+  font-family: Roboto;
+  font-weight: bold;
+}
+.similar-products-list-container {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+@media (min-width: 768px) {
+  .similar-products-container {
+    width: 80%;
+  }
+}
